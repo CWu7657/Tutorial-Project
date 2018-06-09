@@ -1,0 +1,284 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		
+		<link href='https://fonts.googleapis.com/css?family=Carrois Gothic SC' rel='stylesheet'>
+		
+	</head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>	
+		.navbar {
+			margin-bottom: 0;
+			background-color: #999999;
+			z-index: 9999;
+			border: 0;
+			font-size: 12px !important;
+			line-height: 1.42857143 !important;
+			letter-spacing: 4px;
+			border-radius: 0;
+		}
+		.navbar li a, .navbar .navbar-brand {
+			color: #fff !important;
+		}
+		.navbar-nav li a:hover, .navbar-nav li.active a {
+			color: #f4511e !important;
+			background-color: #fff !important;
+		}
+		.navbar-default .navbar-toggle {
+			border-color: transparent;
+			color: #fff !important;
+		}
+		.dropdown-menu li a {
+			color:#000 !important;
+		}
+		body {
+			font-family: 'Carrois Gothic SC';font-size: 20px;
+			padding-left: 200px;
+			padding-right: 200px;
+		}
+		
+		.jumbotron {
+			position: relative;
+			text-align: center;
+			padding-top:50px;
+			height:500px;
+			background-color: #990000;
+		}
+		.text{
+			color: white;
+		}
+		.center {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -99%);
+			color: black;
+			font-size: 30px; 
+		}
+		.background-image {
+			opacity: .6;
+		}
+		.titles{
+			text-align:center;
+			background-color:black;
+			color:white;
+			text-shadow: white 2px 2px 2px;
+			font-size: 36pt;
+			padding: 10px;
+		}
+		.logo{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			height : 20%;
+			width : 10%;
+		}
+		
+		
+		.bg-1{
+			background-color: #;
+			padding-top:50px;
+			height:500px;
+		}
+		.bg-2{
+			padding-top:50px;
+			height:300px;
+			margin:50px;
+		}
+		.bg-3{
+			padding-top:100px;
+			padding-bottom: 100px;
+			background-color: #e6e6ff;
+		}
+		.bg-4{
+			padding-top:100px;
+			padding-bottom:100px;
+			background-color: #e6ffe6;		
+		}
+		
+		
+		
+		.myCarousel{
+			width="10";
+			height="235";
+		}
+		.myCarousel2{
+			width="10"; 
+			height="200";
+		}
+		
+		.footer{ 
+			background-color: #2f2f2f;
+			color: #fff;
+		}
+	</style>
+	
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					</button>
+					<img class="img-circle"> Fortune Learning Academy </img>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#about">ABOUT</a></li>
+						<li><a href="#pinyin">PINYIN</a></li>
+						<li><a href="#character">CHARACTER</a></li>
+						<li><a href="file:///C:/Users/tenda_000/Documents/NotePad++/LearnPage.html">LEARN</a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">QUIZES
+								<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+									<li><a href="file:///C:/Users/tenda_000/Downloads/Quiz1.html">Quiz 1</a></li>
+									<li><a href="file:///C:/Users/tenda_000/Downloads/Quiz2.html">Quiz 2</a></li>
+									
+								</ul>
+							</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="jumbotron bg-1 text-center container-fluid">
+			<div class="center">
+				<div class="text">
+					<h1> ~ 你好 ~</h1> 
+					<h3>欢迎来到幸运学院</h3>
+				</div>
+			</div>
+
+		</div>	
+			
+		
+		<div class="text-center bg-2 container-fluid" id="about" >
+			<h3><b> Fortune Learning Academy </b></h3>
+			<p><em> Learn Easy Chinese Words</em></p>
+			<p>Do you know what is stated above? It means “Hello, Welcome to Fortune Learning Academy.” 
+			Here you will be able to learn easy and basic Chinese words. 
+			The benefits of learning chinese? Well, there are about 1.2 BILLION people worldwide
+			that speak chinese, so the opportunity to communicate with more than a billion people can 
+			prove very beneficial. Also, having a little knowledge wont hurt you, whether you’re planning a trip to 
+			China or trying to impress a date. Let's get started!
+			</p>
+		</div>
+		
+		<div class="container-fluid text-center">  
+			<div class="col-md-12">
+				<h1 class= "titles"> Things to Know</h1>
+			</div>
+		</div>
+		
+		<div class="container-fluid bg-3 text-center" id="pinyin">   		
+			<h1> ~ Pinyin ~ </h1>
+			<div class="row">
+				<div class="col-sm-6">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+						</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="hellopic.jpg" alt="Hello" style="width:100%;">
+						</div>
+
+						<div class="item">
+							<img src="china.PNG" alt="China" style="width:100%;">
+						</div>
+    
+						<div class="item">
+							<img src="thankyou.PNG" alt="Thank You" style="width:100%;">
+						</div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+						<span class="sr-only">Next</span>
+					</a>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<p>Pinyin is the Romanization of the Chinese characters based on their pronunciation. In Mandarin Chinese, the phrase “Pin Yin” literally translates into “spell sound.” In the pictures , you can see two things, chinese and some english letters. The english words are the pinyin, and eaiser way to pronounce the chinese characters without having to understand the character. The pinyin has different tones(lines above some letters); it shows that the words are pronounced differently, and sometimes may even give it another meaning.</p>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid text-center" id="pinyin">
+			<div class="col-sm-6">
+				<h1></h1>
+			</div>
+			<div class="col-sm-6">
+				<h1></h1>
+			</div>
+			<div class="col-sm-6">
+				<h1></h1>
+			</div>
+		</div>
+		<div class="container-fluid bg-4 text-center" id="character">    
+			<h1> ~ Character ~ </h1>
+			<div class="row">
+				<div class="col-sm-6">
+					<p>There are two types of chinese characters. Simplified and Traditional. Simplified Chinese Characters are standardized chinese characters which are easier and more modern. Traditional Chinese Characters are currently used in some places; they are harder to write. Take a look at the pictures you can see some characters are harder to write than the other. It is simplified so it'll be eaiser write. However, while it may be eaiser to write, reading traditional characters are as easy as reading simplified characters.</p>
+				</div>
+				<div class="col-sm-6">
+					<div id="myCarousel2" class="carousel slide" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#myCarousel" data-slide-to="0"></li>
+							<li data-target="#myCarousel" data-slide-to="1"></li>
+							<li data-target="#myCarousel" data-slide-to="2"></li>
+						</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="lovechar.PNG" alt="Love" style="width:100%;">
+						</div>
+
+						<div class="item">
+							<img src="dragon.PNG" alt="Dragon" style="width:100%;">
+						</div>
+    
+						<div class="item">
+							<img src="listen.PNG" alt="Listen" style="width:100%;">
+						</div>
+					</div>
+
+					<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel2" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel2" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+						<span class="sr-only">Next</span>
+					</a>
+					</div>
+				</div>
+			</div>
+		</div>	
+		
+		
+		
+		
+		
+		<footer class="container-fluid footer text-center">
+			<p>Now you've seen a peak, go back up and Learn! </p> 
+			<h4>Logo made with <a href="https://www.designevo.com/" title="Free Online Logo Maker">DesignEvo</a></h4>
+		</footer>
+	</body>
+
+</html>
